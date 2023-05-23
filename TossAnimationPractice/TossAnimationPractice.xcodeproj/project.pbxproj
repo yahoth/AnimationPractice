@@ -17,7 +17,6 @@
 		76BA5A282A1C9DB20084C730 /* AssetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A222A1C9DB20084C730 /* AssetType.swift */; };
 		76BA5A292A1C9DB20084C730 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A232A1C9DB20084C730 /* Lottie.swift */; };
 		76BA5A2A2A1C9DB20084C730 /* Market.json in Resources */ = {isa = PBXBuildFile; fileRef = 76BA5A242A1C9DB20084C730 /* Market.json */; };
-		76BA5A2B2A1C9DB20084C730 /* TossAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A252A1C9DB20084C730 /* TossAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		76BA5A222A1C9DB20084C730 /* AssetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetType.swift; sourceTree = "<group>"; };
 		76BA5A232A1C9DB20084C730 /* Lottie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
 		76BA5A242A1C9DB20084C730 /* Market.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Market.json; sourceTree = "<group>"; };
-		76BA5A252A1C9DB20084C730 /* TossAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TossAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				76BA5A202A1C9DB20084C730 /* Color+.swift */,
 				76BA5A232A1C9DB20084C730 /* Lottie.swift */,
 				76BA5A242A1C9DB20084C730 /* Market.json */,
-				76BA5A252A1C9DB20084C730 /* TossAnimationView.swift */,
 				76BA5A102A1C9D090084C730 /* Assets.xcassets */,
 				76BA5A122A1C9D090084C730 /* Preview Content */,
 			);
@@ -169,7 +166,6 @@
 				76BA5A292A1C9DB20084C730 /* Lottie.swift in Sources */,
 				76BA5A0F2A1C9D080084C730 /* ContentView.swift in Sources */,
 				76BA5A262A1C9DB20084C730 /* Color+.swift in Sources */,
-				76BA5A2B2A1C9DB20084C730 /* TossAnimationView.swift in Sources */,
 				76BA5A0D2A1C9D080084C730 /* TossAnimationPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
