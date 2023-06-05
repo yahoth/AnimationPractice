@@ -80,6 +80,7 @@ struct ContentView: View {
                     Text(asset.accountBalance)
                         .font(.body)
                         .fontWeight(.semibold)
+                        .foregroundColor(.black)
                 }
                 
                 Spacer()
