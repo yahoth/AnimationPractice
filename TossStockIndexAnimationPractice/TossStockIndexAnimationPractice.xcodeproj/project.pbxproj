@@ -7,79 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76BA5A0D2A1C9D080084C730 /* TossAnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A0C2A1C9D080084C730 /* TossAnimationPracticeApp.swift */; };
-		76BA5A0F2A1C9D080084C730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A0E2A1C9D080084C730 /* ContentView.swift */; };
-		76BA5A112A1C9D090084C730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BA5A102A1C9D090084C730 /* Assets.xcassets */; };
-		76BA5A142A1C9D090084C730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BA5A132A1C9D090084C730 /* Preview Assets.xcassets */; };
-		76BA5A1F2A1C9D9C0084C730 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 76BA5A1E2A1C9D9C0084C730 /* Lottie */; };
-		76BA5A262A1C9DB20084C730 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A202A1C9DB20084C730 /* Color+.swift */; };
-		76BA5A272A1C9DB20084C730 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A212A1C9DB20084C730 /* ButtonCustom.swift */; };
-		76BA5A282A1C9DB20084C730 /* AssetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A222A1C9DB20084C730 /* AssetType.swift */; };
-		76BA5A292A1C9DB20084C730 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA5A232A1C9DB20084C730 /* Lottie.swift */; };
-		76BA5A2A2A1C9DB20084C730 /* Market.json in Resources */ = {isa = PBXBuildFile; fileRef = 76BA5A242A1C9DB20084C730 /* Market.json */; };
+		7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */; };
+		7654F4B82A289E2A00E3A0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B72A289E2A00E3A0BE /* ContentView.swift */; };
+		7654F4BA2A289E2A00E3A0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4B92A289E2A00E3A0BE /* Assets.xcassets */; };
+		7654F4BD2A289E2A00E3A0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */; };
+		7654F4C82A289E6100E3A0BE /* StockIndexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4C72A289E6100E3A0BE /* StockIndexManager.swift */; };
+		765EC21C2A2DB4090081D74F /* StockIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21B2A2DB4090081D74F /* StockIndex.swift */; };
+		765EC21E2A2DCEAB0081D74F /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21D2A2DCEAB0081D74F /* MyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		76BA5A092A1C9D080084C730 /* TossAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		76BA5A0C2A1C9D080084C730 /* TossAnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossAnimationPracticeApp.swift; sourceTree = "<group>"; };
-		76BA5A0E2A1C9D080084C730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		76BA5A102A1C9D090084C730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		76BA5A132A1C9D090084C730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		76BA5A202A1C9DB20084C730 /* Color+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
-		76BA5A212A1C9DB20084C730 /* ButtonCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
-		76BA5A222A1C9DB20084C730 /* AssetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetType.swift; sourceTree = "<group>"; };
-		76BA5A232A1C9DB20084C730 /* Lottie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
-		76BA5A242A1C9DB20084C730 /* Market.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Market.json; sourceTree = "<group>"; };
+		7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossStockIndexAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationPracticeApp.swift; sourceTree = "<group>"; };
+		7654F4B72A289E2A00E3A0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7654F4B92A289E2A00E3A0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7654F4C72A289E6100E3A0BE /* StockIndexManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockIndexManager.swift; sourceTree = "<group>"; };
+		765EC21A2A2DAD650081D74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		765EC21B2A2DB4090081D74F /* StockIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockIndex.swift; sourceTree = "<group>"; };
+		765EC21D2A2DCEAB0081D74F /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76BA5A062A1C9D080084C730 /* Frameworks */ = {
+		7654F4AF2A289E2A00E3A0BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BA5A1F2A1C9D9C0084C730 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		76BA5A002A1C9D080084C730 = {
+		7654F4A92A289E2A00E3A0BE = {
 			isa = PBXGroup;
 			children = (
-				76BA5A0B2A1C9D080084C730 /* TossAnimationPractice */,
-				76BA5A0A2A1C9D080084C730 /* Products */,
+				7654F4B42A289E2A00E3A0BE /* TossStockIndexAnimationPractice */,
+				7654F4B32A289E2A00E3A0BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		76BA5A0A2A1C9D080084C730 /* Products */ = {
+		7654F4B32A289E2A00E3A0BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76BA5A092A1C9D080084C730 /* TossAnimationPractice.app */,
+				7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76BA5A0B2A1C9D080084C730 /* TossAnimationPractice */ = {
+		7654F4B42A289E2A00E3A0BE /* TossStockIndexAnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
-				76BA5A0C2A1C9D080084C730 /* TossAnimationPracticeApp.swift */,
-				76BA5A0E2A1C9D080084C730 /* ContentView.swift */,
-				76BA5A222A1C9DB20084C730 /* AssetType.swift */,
-				76BA5A212A1C9DB20084C730 /* ButtonCustom.swift */,
-				76BA5A202A1C9DB20084C730 /* Color+.swift */,
-				76BA5A232A1C9DB20084C730 /* Lottie.swift */,
-				76BA5A242A1C9DB20084C730 /* Market.json */,
-				76BA5A102A1C9D090084C730 /* Assets.xcassets */,
-				76BA5A122A1C9D090084C730 /* Preview Content */,
+				765EC21A2A2DAD650081D74F /* Info.plist */,
+				7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */,
+				7654F4B72A289E2A00E3A0BE /* ContentView.swift */,
+				765EC21D2A2DCEAB0081D74F /* MyTimer.swift */,
+				7654F4C72A289E6100E3A0BE /* StockIndexManager.swift */,
+				765EC21B2A2DB4090081D74F /* StockIndex.swift */,
+				7654F4B92A289E2A00E3A0BE /* Assets.xcassets */,
+				7654F4BB2A289E2A00E3A0BE /* Preview Content */,
 			);
-			path = TossAnimationPractice;
+			path = TossStockIndexAnimationPractice;
 			sourceTree = "<group>";
 		};
-		76BA5A122A1C9D090084C730 /* Preview Content */ = {
+		7654F4BB2A289E2A00E3A0BE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				76BA5A132A1C9D090084C730 /* Preview Assets.xcassets */,
+				7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,42 +81,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76BA5A082A1C9D080084C730 /* TossAnimationPractice */ = {
+		7654F4B12A289E2A00E3A0BE /* TossStockIndexAnimationPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76BA5A172A1C9D090084C730 /* Build configuration list for PBXNativeTarget "TossAnimationPractice" */;
+			buildConfigurationList = 7654F4C02A289E2A00E3A0BE /* Build configuration list for PBXNativeTarget "TossStockIndexAnimationPractice" */;
 			buildPhases = (
-				76BA5A052A1C9D080084C730 /* Sources */,
-				76BA5A062A1C9D080084C730 /* Frameworks */,
-				76BA5A072A1C9D080084C730 /* Resources */,
+				7654F4AE2A289E2A00E3A0BE /* Sources */,
+				7654F4AF2A289E2A00E3A0BE /* Frameworks */,
+				7654F4B02A289E2A00E3A0BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TossAnimationPractice;
-			packageProductDependencies = (
-				76BA5A1E2A1C9D9C0084C730 /* Lottie */,
-			);
-			productName = TossAnimationPractice;
-			productReference = 76BA5A092A1C9D080084C730 /* TossAnimationPractice.app */;
+			name = TossStockIndexAnimationPractice;
+			productName = TossStockIndexAnimationPractice;
+			productReference = 7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		76BA5A012A1C9D080084C730 /* Project object */ = {
+		7654F4AA2A289E2A00E3A0BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					76BA5A082A1C9D080084C730 = {
+					7654F4B12A289E2A00E3A0BE = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 76BA5A042A1C9D080084C730 /* Build configuration list for PBXProject "TossAnimationPractice" */;
+			buildConfigurationList = 7654F4AD2A289E2A00E3A0BE /* Build configuration list for PBXProject "TossStockIndexAnimationPractice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,50 +121,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 76BA5A002A1C9D080084C730;
-			packageReferences = (
-				76BA5A1D2A1C9D9C0084C730 /* XCRemoteSwiftPackageReference "lottie-ios" */,
-			);
-			productRefGroup = 76BA5A0A2A1C9D080084C730 /* Products */;
+			mainGroup = 7654F4A92A289E2A00E3A0BE;
+			productRefGroup = 7654F4B32A289E2A00E3A0BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76BA5A082A1C9D080084C730 /* TossAnimationPractice */,
+				7654F4B12A289E2A00E3A0BE /* TossStockIndexAnimationPractice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		76BA5A072A1C9D080084C730 /* Resources */ = {
+		7654F4B02A289E2A00E3A0BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BA5A142A1C9D090084C730 /* Preview Assets.xcassets in Resources */,
-				76BA5A112A1C9D090084C730 /* Assets.xcassets in Resources */,
-				76BA5A2A2A1C9DB20084C730 /* Market.json in Resources */,
+				7654F4BD2A289E2A00E3A0BE /* Preview Assets.xcassets in Resources */,
+				7654F4BA2A289E2A00E3A0BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76BA5A052A1C9D080084C730 /* Sources */ = {
+		7654F4AE2A289E2A00E3A0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BA5A282A1C9DB20084C730 /* AssetType.swift in Sources */,
-				76BA5A272A1C9DB20084C730 /* ButtonCustom.swift in Sources */,
-				76BA5A292A1C9DB20084C730 /* Lottie.swift in Sources */,
-				76BA5A0F2A1C9D080084C730 /* ContentView.swift in Sources */,
-				76BA5A262A1C9DB20084C730 /* Color+.swift in Sources */,
-				76BA5A0D2A1C9D080084C730 /* TossAnimationPracticeApp.swift in Sources */,
+				7654F4B82A289E2A00E3A0BE /* ContentView.swift in Sources */,
+				7654F4C82A289E6100E3A0BE /* StockIndexManager.swift in Sources */,
+				7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */,
+				765EC21C2A2DB4090081D74F /* StockIndex.swift in Sources */,
+				765EC21E2A2DCEAB0081D74F /* MyTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		76BA5A152A1C9D090084C730 /* Debug */ = {
+		7654F4BE2A289E2A00E3A0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +219,7 @@
 			};
 			name = Debug;
 		};
-		76BA5A162A1C9D090084C730 /* Release */ = {
+		7654F4BF2A289E2A00E3A0BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,17 +273,18 @@
 			};
 			name = Release;
 		};
-		76BA5A182A1C9D090084C730 /* Debug */ = {
+		7654F4C12A289E2A00E3A0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TossAnimationPractice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TossStockIndexAnimationPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ZG4WU22U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossStockIndexAnimationPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.TossAnimationPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.TossStockIndexAnimationPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,17 +304,18 @@
 			};
 			name = Debug;
 		};
-		76BA5A192A1C9D090084C730 /* Release */ = {
+		7654F4C22A289E2A00E3A0BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TossAnimationPractice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TossStockIndexAnimationPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ZG4WU22U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossStockIndexAnimationPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.TossAnimationPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.TossStockIndexAnimationPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -350,44 +338,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76BA5A042A1C9D080084C730 /* Build configuration list for PBXProject "TossAnimationPractice" */ = {
+		7654F4AD2A289E2A00E3A0BE /* Build configuration list for PBXProject "TossStockIndexAnimationPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76BA5A152A1C9D090084C730 /* Debug */,
-				76BA5A162A1C9D090084C730 /* Release */,
+				7654F4BE2A289E2A00E3A0BE /* Debug */,
+				7654F4BF2A289E2A00E3A0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76BA5A172A1C9D090084C730 /* Build configuration list for PBXNativeTarget "TossAnimationPractice" */ = {
+		7654F4C02A289E2A00E3A0BE /* Build configuration list for PBXNativeTarget "TossStockIndexAnimationPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76BA5A182A1C9D090084C730 /* Debug */,
-				76BA5A192A1C9D090084C730 /* Release */,
+				7654F4C12A289E2A00E3A0BE /* Debug */,
+				7654F4C22A289E2A00E3A0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		76BA5A1D2A1C9D9C0084C730 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		76BA5A1E2A1C9D9C0084C730 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76BA5A1D2A1C9D9C0084C730 /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 76BA5A012A1C9D080084C730 /* Project object */;
+	rootObject = 7654F4AA2A289E2A00E3A0BE /* Project object */;
 }
