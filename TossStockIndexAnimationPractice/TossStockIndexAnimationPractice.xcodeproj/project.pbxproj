@@ -12,6 +12,7 @@
 		7654F4BA2A289E2A00E3A0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4B92A289E2A00E3A0BE /* Assets.xcassets */; };
 		7654F4BD2A289E2A00E3A0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */; };
 		765EC21E2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */; };
+		76B8413E2A2F822900B4B48E /* ViewOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8413D2A2F822900B4B48E /* ViewOffsetKey.swift */; };
 		76E669D52A2F30E900270B1D /* StockIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E669D42A2F30E900270B1D /* StockIndex.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		765EC21A2A2DAD650081D74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationViewModel.swift; sourceTree = "<group>"; };
+		76B8413D2A2F822900B4B48E /* ViewOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOffsetKey.swift; sourceTree = "<group>"; };
 		76E669D42A2F30E900270B1D /* StockIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 				765EC21A2A2DAD650081D74F /* Info.plist */,
 				7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */,
 				7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */,
+				76B8413D2A2F822900B4B48E /* ViewOffsetKey.swift */,
 				765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */,
 				76E669D42A2F30E900270B1D /* StockIndex.swift */,
 				7654F4B92A289E2A00E3A0BE /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B8413E2A2F822900B4B48E /* ViewOffsetKey.swift in Sources */,
 				7654F4B82A289E2A00E3A0BE /* TossStockIndexAnimationView.swift in Sources */,
 				7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */,
 				765EC21E2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift in Sources */,
