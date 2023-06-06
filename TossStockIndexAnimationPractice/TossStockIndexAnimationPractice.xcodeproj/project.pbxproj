@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */; };
-		7654F4B82A289E2A00E3A0BE /* TossStockIndexAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */; };
+		7654F4B82A289E2A00E3A0BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B72A289E2A00E3A0BE /* ContentView.swift */; };
 		7654F4BA2A289E2A00E3A0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4B92A289E2A00E3A0BE /* Assets.xcassets */; };
 		7654F4BD2A289E2A00E3A0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */; };
-		765EC21E2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */; };
-		76E669D52A2F30E900270B1D /* StockIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E669D42A2F30E900270B1D /* StockIndex.swift */; };
+		7654F4C82A289E6100E3A0BE /* StockIndexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4C72A289E6100E3A0BE /* StockIndexManager.swift */; };
+		765EC21C2A2DB4090081D74F /* StockIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21B2A2DB4090081D74F /* StockIndex.swift */; };
+		765EC21E2A2DCEAB0081D74F /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21D2A2DCEAB0081D74F /* MyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossStockIndexAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationPracticeApp.swift; sourceTree = "<group>"; };
-		7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		7654F4B72A289E2A00E3A0BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7654F4B92A289E2A00E3A0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7654F4C72A289E6100E3A0BE /* StockIndexManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockIndexManager.swift; sourceTree = "<group>"; };
 		765EC21A2A2DAD650081D74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationViewModel.swift; sourceTree = "<group>"; };
-		76E669D42A2F30E900270B1D /* StockIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockIndex.swift; sourceTree = "<group>"; };
+		765EC21B2A2DB4090081D74F /* StockIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockIndex.swift; sourceTree = "<group>"; };
+		765EC21D2A2DCEAB0081D74F /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 			children = (
 				765EC21A2A2DAD650081D74F /* Info.plist */,
 				7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */,
-				7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */,
-				765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */,
-				76E669D42A2F30E900270B1D /* StockIndex.swift */,
+				7654F4B72A289E2A00E3A0BE /* ContentView.swift */,
+				765EC21D2A2DCEAB0081D74F /* MyTimer.swift */,
+				7654F4C72A289E6100E3A0BE /* StockIndexManager.swift */,
+				765EC21B2A2DB4090081D74F /* StockIndex.swift */,
 				7654F4B92A289E2A00E3A0BE /* Assets.xcassets */,
 				7654F4BB2A289E2A00E3A0BE /* Preview Content */,
 			);
@@ -145,10 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7654F4B82A289E2A00E3A0BE /* TossStockIndexAnimationView.swift in Sources */,
+				7654F4B82A289E2A00E3A0BE /* ContentView.swift in Sources */,
+				7654F4C82A289E6100E3A0BE /* StockIndexManager.swift in Sources */,
 				7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */,
-				765EC21E2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift in Sources */,
-				76E669D52A2F30E900270B1D /* StockIndex.swift in Sources */,
+				765EC21C2A2DB4090081D74F /* StockIndex.swift in Sources */,
+				765EC21E2A2DCEAB0081D74F /* MyTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
