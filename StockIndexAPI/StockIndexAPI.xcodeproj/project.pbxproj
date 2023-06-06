@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */; };
-		7654F4B82A289E2A00E3A0BE /* TossStockIndexAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */; };
-		7654F4BA2A289E2A00E3A0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4B92A289E2A00E3A0BE /* Assets.xcassets */; };
-		7654F4BD2A289E2A00E3A0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */; };
-		765EC21E2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */; };
-		76E669D52A2F30E900270B1D /* StockIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E669D42A2F30E900270B1D /* StockIndex.swift */; };
+		76E669C32A2F303B00270B1D /* StockIndexAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E669C22A2F303B00270B1D /* StockIndexAPIApp.swift */; };
+		76E669C52A2F303B00270B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E669C42A2F303B00270B1D /* ContentView.swift */; };
+		76E669C72A2F303C00270B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E669C62A2F303C00270B1D /* Assets.xcassets */; };
+		76E669CA2A2F303C00270B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E669C92A2F303C00270B1D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossStockIndexAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationPracticeApp.swift; sourceTree = "<group>"; };
-		7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationView.swift; sourceTree = "<group>"; usesTabs = 0; };
-		7654F4B92A289E2A00E3A0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		765EC21A2A2DAD650081D74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossStockIndexAnimationViewModel.swift; sourceTree = "<group>"; };
-		76E669D42A2F30E900270B1D /* StockIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockIndex.swift; sourceTree = "<group>"; };
+		76E669BF2A2F303B00270B1D /* StockIndexAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockIndexAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E669C22A2F303B00270B1D /* StockIndexAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockIndexAPIApp.swift; sourceTree = "<group>"; };
+		76E669C42A2F303B00270B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76E669C62A2F303C00270B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76E669C92A2F303C00270B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7654F4AF2A289E2A00E3A0BE /* Frameworks */ = {
+		76E669BC2A2F303B00270B1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7654F4A92A289E2A00E3A0BE = {
+		76E669B62A2F303B00270B1D = {
 			isa = PBXGroup;
 			children = (
-				7654F4B42A289E2A00E3A0BE /* TossStockIndexAnimationPractice */,
-				7654F4B32A289E2A00E3A0BE /* Products */,
+				76E669C12A2F303B00270B1D /* StockIndexAPI */,
+				76E669C02A2F303B00270B1D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7654F4B32A289E2A00E3A0BE /* Products */ = {
+		76E669C02A2F303B00270B1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */,
+				76E669BF2A2F303B00270B1D /* StockIndexAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7654F4B42A289E2A00E3A0BE /* TossStockIndexAnimationPractice */ = {
+		76E669C12A2F303B00270B1D /* StockIndexAPI */ = {
 			isa = PBXGroup;
 			children = (
-				765EC21A2A2DAD650081D74F /* Info.plist */,
-				7654F4B52A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift */,
-				7654F4B72A289E2A00E3A0BE /* TossStockIndexAnimationView.swift */,
-				765EC21D2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift */,
-				76E669D42A2F30E900270B1D /* StockIndex.swift */,
-				7654F4B92A289E2A00E3A0BE /* Assets.xcassets */,
-				7654F4BB2A289E2A00E3A0BE /* Preview Content */,
+				76E669C22A2F303B00270B1D /* StockIndexAPIApp.swift */,
+				76E669C42A2F303B00270B1D /* ContentView.swift */,
+				76E669C62A2F303C00270B1D /* Assets.xcassets */,
+				76E669C82A2F303C00270B1D /* Preview Content */,
 			);
-			path = TossStockIndexAnimationPractice;
+			path = StockIndexAPI;
 			sourceTree = "<group>";
 		};
-		7654F4BB2A289E2A00E3A0BE /* Preview Content */ = {
+		76E669C82A2F303C00270B1D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7654F4BC2A289E2A00E3A0BE /* Preview Assets.xcassets */,
+				76E669C92A2F303C00270B1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7654F4B12A289E2A00E3A0BE /* TossStockIndexAnimationPractice */ = {
+		76E669BE2A2F303B00270B1D /* StockIndexAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7654F4C02A289E2A00E3A0BE /* Build configuration list for PBXNativeTarget "TossStockIndexAnimationPractice" */;
+			buildConfigurationList = 76E669CD2A2F303C00270B1D /* Build configuration list for PBXNativeTarget "StockIndexAPI" */;
 			buildPhases = (
-				7654F4AE2A289E2A00E3A0BE /* Sources */,
-				7654F4AF2A289E2A00E3A0BE /* Frameworks */,
-				7654F4B02A289E2A00E3A0BE /* Resources */,
+				76E669BB2A2F303B00270B1D /* Sources */,
+				76E669BC2A2F303B00270B1D /* Frameworks */,
+				76E669BD2A2F303B00270B1D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TossStockIndexAnimationPractice;
-			productName = TossStockIndexAnimationPractice;
-			productReference = 7654F4B22A289E2A00E3A0BE /* TossStockIndexAnimationPractice.app */;
+			name = StockIndexAPI;
+			productName = StockIndexAPI;
+			productReference = 76E669BF2A2F303B00270B1D /* StockIndexAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7654F4AA2A289E2A00E3A0BE /* Project object */ = {
+		76E669B72A2F303B00270B1D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					7654F4B12A289E2A00E3A0BE = {
+					76E669BE2A2F303B00270B1D = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 7654F4AD2A289E2A00E3A0BE /* Build configuration list for PBXProject "TossStockIndexAnimationPractice" */;
+			buildConfigurationList = 76E669BA2A2F303B00270B1D /* Build configuration list for PBXProject "StockIndexAPI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,44 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 7654F4A92A289E2A00E3A0BE;
-			productRefGroup = 7654F4B32A289E2A00E3A0BE /* Products */;
+			mainGroup = 76E669B62A2F303B00270B1D;
+			productRefGroup = 76E669C02A2F303B00270B1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7654F4B12A289E2A00E3A0BE /* TossStockIndexAnimationPractice */,
+				76E669BE2A2F303B00270B1D /* StockIndexAPI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7654F4B02A289E2A00E3A0BE /* Resources */ = {
+		76E669BD2A2F303B00270B1D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7654F4BD2A289E2A00E3A0BE /* Preview Assets.xcassets in Resources */,
-				7654F4BA2A289E2A00E3A0BE /* Assets.xcassets in Resources */,
+				76E669CA2A2F303C00270B1D /* Preview Assets.xcassets in Resources */,
+				76E669C72A2F303C00270B1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7654F4AE2A289E2A00E3A0BE /* Sources */ = {
+		76E669BB2A2F303B00270B1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7654F4B82A289E2A00E3A0BE /* TossStockIndexAnimationView.swift in Sources */,
-				7654F4B62A289E2A00E3A0BE /* TossStockIndexAnimationPracticeApp.swift in Sources */,
-				765EC21E2A2DCEAB0081D74F /* TossStockIndexAnimationViewModel.swift in Sources */,
-				76E669D52A2F30E900270B1D /* StockIndex.swift in Sources */,
+				76E669C52A2F303B00270B1D /* ContentView.swift in Sources */,
+				76E669C32A2F303B00270B1D /* StockIndexAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7654F4BE2A289E2A00E3A0BE /* Debug */ = {
+		76E669CB2A2F303C00270B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		7654F4BF2A289E2A00E3A0BE /* Release */ = {
+		76E669CC2A2F303C00270B1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,30 +259,28 @@
 			};
 			name = Release;
 		};
-		7654F4C12A289E2A00E3A0BE /* Debug */ = {
+		76E669CE2A2F303C00270B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TossStockIndexAnimationPractice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StockIndexAPI/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ZG4WU22U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TossStockIndexAnimationPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.TossStockIndexAnimationPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.StockIndexAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,30 +288,28 @@
 			};
 			name = Debug;
 		};
-		7654F4C22A289E2A00E3A0BE /* Release */ = {
+		76E669CF2A2F303C00270B1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TossStockIndexAnimationPractice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StockIndexAPI/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ZG4WU22U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TossStockIndexAnimationPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.TossStockIndexAnimationPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeduck.StockIndexAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7654F4AD2A289E2A00E3A0BE /* Build configuration list for PBXProject "TossStockIndexAnimationPractice" */ = {
+		76E669BA2A2F303B00270B1D /* Build configuration list for PBXProject "StockIndexAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7654F4BE2A289E2A00E3A0BE /* Debug */,
-				7654F4BF2A289E2A00E3A0BE /* Release */,
+				76E669CB2A2F303C00270B1D /* Debug */,
+				76E669CC2A2F303C00270B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7654F4C02A289E2A00E3A0BE /* Build configuration list for PBXNativeTarget "TossStockIndexAnimationPractice" */ = {
+		76E669CD2A2F303C00270B1D /* Build configuration list for PBXNativeTarget "StockIndexAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7654F4C12A289E2A00E3A0BE /* Debug */,
-				7654F4C22A289E2A00E3A0BE /* Release */,
+				76E669CE2A2F303C00270B1D /* Debug */,
+				76E669CF2A2F303C00270B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7654F4AA2A289E2A00E3A0BE /* Project object */;
+	rootObject = 76E669B72A2F303B00270B1D /* Project object */;
 }
